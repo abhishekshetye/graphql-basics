@@ -1,0 +1,17 @@
+{
+  "name": "graphqlbasics",
+  "version": "1.0.0",
+  "description": "Basic project setup to learn graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.5.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.1"
+  }
+}
